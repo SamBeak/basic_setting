@@ -4,13 +4,13 @@ import React from 'react'
 // Component List
 import FooterComponent from './wrap/FooterComponent'
 import HeaderComponent from './wrap/HeaderComponent'
-import MainComponent from './wrap/MainComponent'
+import HomeComponent from './wrap/HomeComponent'
 
 export default function WrapComponent() {
   return (
     <div id="wrap">
         <HeaderComponent />
-        <MainComponent />
+        <HomeComponent />
         <FooterComponent />
     </div>
   )
